@@ -2,18 +2,11 @@ html,
 body {
   font-family: 'Open Sans', sans-serif;
   text-align: center;
-  width:84%;
-  padding-left: 100px;
-  padding-right: 100px;
-  background:#333;
+  
   /*background:#90C695;*/
 }
 
-ul{
 
-  margin-top: 0;
-    margin-bottom: 10px;
-}
 
 * {
   margin: 0;
@@ -24,9 +17,7 @@ ul{
  
  /* background: #e0ebe8;*/
 
-background-image:url(17.jpeg) ;
-background-repeat: no-repeat;
-background-size: 1000px 800px;
+ background: #e0ebe8;
   min-height: 55vh;
   padding-top: 45vh;
   padding-bottom:20vh;
@@ -42,14 +33,16 @@ border:solid; */
 }
 
 nav ul {
+  text-align: right;
+  position: fixed;
+  width: 100%;
+
   padding-top:5px;
   padding-bottom:10px;
   margin-top: 10px;
   text-align: right;
   position: fixed;
-  width: 70.6%;
-  height:8%;
-  background-color:thistle;
+  background-color:#C8F7C5;
 }
 
 nav ul li {
@@ -75,7 +68,7 @@ nav ul li a:hover {
 .work {
   padding-top:50px;
   margin-top:-40px;
-  background:lemonchiffon;
+  background:rgb(195, 224, 241);;
   
 height: 120%;
 }
@@ -83,7 +76,7 @@ height: 120%;
 .work-header {
   margin-top:20px;
   margin-bottom: 20px;
-  color: darkolivegreen;
+  color: rgb(11, 19, 128);
   font-weight: normal;
   font-family: 'Open Sans', sans-serif;
   font-size:50px;
@@ -97,7 +90,7 @@ height: 120%;
   
   font-family:'Times New Roman', Times, serif;
   text-align:left;
-  width:70%;
+  width:80%;
   margin-left:150px;
   display: block;
   font-size: 25px;
@@ -112,7 +105,8 @@ height: 120%;
 .contact {
   /*   height:800px; */
   /*   min-height:800px; */
-  background:rgb(195, 224, 241);
+  background: #e0ebe8;
+
   padding-bottom: 160px;
   margin-top:-90px;
 }
